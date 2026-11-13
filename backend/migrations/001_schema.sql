@@ -1,0 +1,1 @@
+-- Fresh MySQL tables are created by SQLAlchemy metadata. Probabilities, log probabilities, entropy and IG use DOUBLE. Version/CPT/scientific inputs are immutable; existing production databases require reviewed incremental migrations.

@@ -1,0 +1,1 @@
+export const fixed=(v:number,d=4)=>Number(v).toFixed(d);export const logValue=(v:number|null)=>v===null?'−∞（严格0）':Number(v).toFixed(6);export const probability=(v:number,underflow=false)=>underflow?'exp下溢（正概率）':v===0?'0':v<.0001?v.toExponential(4):(100*v).toFixed(2)+'%';

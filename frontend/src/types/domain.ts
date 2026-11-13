@@ -1,0 +1,1 @@
+export type Role='admin'|'analyst'|'viewer';export interface User{email:string;role:Role}export interface Entity{id:string;created_at:string;[key:string]:any}export interface BayesNode{node_id:string;label:string;parents:string[]}
